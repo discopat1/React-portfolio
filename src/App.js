@@ -1,14 +1,16 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
 import Banner from './components/Banner';
+import Projects from './components/Projects';
+import Schedule from './components/Schedule';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <Navbar/>
         <Banner/>
+        <Schedule/>
+        <Projects/>
       </Fragment>
     );
   }
