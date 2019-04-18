@@ -6,11 +6,13 @@ const schedStyle = {
     color: 'sienna'
 }
 
+
 class Schedule extends Component {
     render() {
         return (
             <div class= "container center" style={schedStyle}>
-                <h1 class="text-center">Schedule an appointnment with me</h1>
+                <h1 class="text-center">Want to get ahold of me?</h1>
+               <a href="https://calendly.com/pbneff"><button type="button" class="container center btn btn-outline-secondary btn-lg">Schedule an appointment</button></a>
             </div>
         );
       }
