@@ -11,7 +11,9 @@ class Banner extends Component {
                 <div className="container center" id="content">
                     <h1 className="text text-center">Patrick Neff</h1>
                     <h2 className="text text-center">Full Stack Web Developer</h2>
+                    <hr />
                 </div>
+                
                 <div class= "container center">
                     <h3 className="text text-center">About Me</h3>
                     <p class="text text-center">

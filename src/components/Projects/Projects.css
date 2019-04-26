@@ -1,0 +1,42 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 44%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.work:hover .overlay {
+    opacity: 1;
+}
+.second {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.descriptions {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 16.5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    position: absolute;
+    height: 12em;
+    border-style: inset;
+    border-width: 3px;
+    border-color: rgb(70, 68, 68);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .img-work {
+      width: 100%;
+  }
