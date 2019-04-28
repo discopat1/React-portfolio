@@ -18,45 +18,76 @@ const ProjectList = [{
     GitHub: "https://github.com/smitty10010/workoutappsrevenge",
     Description1: "Web application designed to provide a strength and conditioning workout based on user input. Exercises, weight, sets, reps, plus history tracking is provided.",
     Description2: "Built with ReactJS, Material UI, Auth0, Node.JS, Express, Lodash, and Passport."
-}
+},
+{
+    HomeUrl: "https://workoutappsrevenge.herokuapp.com/",
+    Name: "The Workout App",
+    Image: "images/Workoutapp-screenshot.png",
+    GitHub: "https://github.com/smitty10010/workoutappsrevenge",
+    Description1: "Web application designed to provide a strength and conditioning workout based on user input. Exercises, weight, sets, reps, plus history tracking is provided.",
+    Description2: "Built with ReactJS, Material UI, Auth0, Node.JS, Express, Lodash, and Passport."
+},
+{
+    HomeUrl: "https://workoutappsrevenge.herokuapp.com/",
+    Name: "The Workout App",
+    Image: "images/Workoutapp-screenshot.png",
+    GitHub: "https://github.com/smitty10010/workoutappsrevenge",
+    Description1: "Web application designed to provide a strength and conditioning workout based on user input. Exercises, weight, sets, reps, plus history tracking is provided.",
+    Description2: "Built with ReactJS, Material UI, Auth0, Node.JS, Express, Lodash, and Passport."
+},
 ];
+
 
 class Projects extends Component {
 
-renderProjectList = project => (
-    <React.Fragment>
-        <div class="col-sm-6 work">
-            <p>{project.Name}</p>
-            <a href={project.HomeUrl}><img src={project.Image} class="img-responsive img-work" alt=""/></a>
-                <div>
-                <div>
-                    <p>{project.Description1}</p>
-                    <p>{project.Description2}</p>
-                </div>
-                </div>
-        </div>
+    constructor(){
+        super();
 
-    </React.Fragment>
-)
+        this.state = {
+           overlay: false
+        }
+    }
+
+    overLayOn(){
+       this.setState({overlay: true})
+    }
+
+    overLayOff() {
+        this.setState({overlay: false})
+    }
+
+    toggle() {
+        return this.state.overlay ? 'block' : 'none';
+    }
+
+    renderProjectList = project => (
+        <React.Fragment>
+            <div class="col-sm-6 work">
+                <p>{project.Name}</p>
+                <a href={project.HomeUrl}><img src={project.Image} class="img-responsive img-work" alt=""/></a>
+                    <div class="container info-button">
+                        <button class="primary" onClick={this.overLayOn.bind(this)}>Info</button>
+                    </div>
+                    <div className="overlay" style={{display: this.toggle()}} onClick={this.overLayOff.bind(this)}>
+                        <div className="over-text">
+                            <p>{project.Description1}</p>
+                            <p>{project.Description2}</p>
+                        </div>
+                    </div>
+                    
+            </div>
+
+        </React.Fragment>
+    )
+
 
     render() {
+        console.log(this.state.overlay)
         return (
             <div class="container-fluid bg-3 text-center">
                 <h3>A snapshot of some of my past and current projects</h3>
                 <div class="row">
-                    
-                        {/* <a href="https://workoutappsrevenge.herokuapp.com/"><p>The Workout App</p>
-                        <img src={'images/Workoutapp-screenshot.png'} class="img-responsive img-work" alt=""/>
-                            <div class="overlay">
-                            <div class='descriptions'>
-                                <p>Web application designed to provide a strength and conditioning workout based on user input. Exercises, weight, sets, reps, plus history tracking is provided.</p>
-                                <p>Built with ReactJS, Material UI, Auth0, Node.JS, Express, Lodash, and Passport.</p>
-                            </div>
-                            </div>
-                        </a>
-                        <a href="https://github.com/smitty10010/workoutappsrevenge"><p>Just the code</p></a> */}
-                        {ProjectList.map(this.renderProjectList)}
-                    
+                    {ProjectList.map(this.renderProjectList)}
                 </div>
             </div>
         );
