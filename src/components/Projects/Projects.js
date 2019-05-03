@@ -45,15 +45,15 @@ class Projects extends Component {
         <React.Fragment>
             <div class="col-sm-6 work  d-flex justify-content-center">
                 <div class="card" style={{width: '75%'}}>
-                <img src={project.Image} class="img-responsive img-work" alt=""/>
+                <img src={project.Image} class="card-img-top" alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">{project.Name}</h5>
                         <p>{project.Description1}</p>
                         <p>{project.Description2}</p>
-                        <div class="row d-flex justify-content-between align-items-end">
-                            <a href={project.HomeUrl} class="btn btn-outline-secondary">Application</a>
-                            <a href={project.GitHub} class="btn btn-outline-secondary" style={{width: '22%'}}>Repo</a>
-                        </div>
+                    </div>     
+                    <div class="d-flex justify-content-between card-footer">
+                        <a href={project.HomeUrl} class="btn btn-outline-secondary">Application</a>
+                        <a href={project.GitHub} class="btn btn-outline-secondary" style={{width: '22%'}}>Repo</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ class Projects extends Component {
         return (
             <div class="container-fluid bg-3 text-center">
                 <h3>A snapshot of some of my past and current projects</h3>
-                <div class="row">
+                <div class="card-group">
                     {ProjectList.map(this.renderProjectList)}
                 </div>
             </div>
