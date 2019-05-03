@@ -30,6 +30,15 @@
   }
 
   .card {
-      border: 10px solid rgba(0,0,0,.125);
+      border: 5px groove rgb(208, 171, 149);
   }
 
+  .card-group {
+      background-image: "url('images/sunset.jpg')";
+  }
+
+  .card-button {
+      width: 130px;
+      margin-right: 45px;
+      margin-left: 45px;
+  }
