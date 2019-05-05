@@ -1,0 +1,16 @@
+.icon {
+    -webkit-transition: transform 1s; /* Safari */
+    transition: transform 1s;
+    color: white;
+  }
+.icon:hover {
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+  }
+i {
+    margin-right: 45px;
+    margin-left: 45px;
+  }
+.skills {
+    background-color: sienna;
+}

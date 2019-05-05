@@ -16,3 +16,7 @@
     color: rgba(240, 238, 227);
     font-weight: bold;
 }
+
+.jumbotron {
+    margin-bottom: 80px;
+}
