@@ -35,6 +35,22 @@ const ProjectList = [{
     Description1: "Friend matching web application. User is first given the opportunity to download a picture of themselves and is then asked to answer some survey questions. The application will then pair the user with their best matched Game of Thrones character based on their answers.",
     Description2: "Built with HTML, NodeJS, Express, and Bootstrap."
 },
+{
+    HomeUrl: "https://discopat1.github.io/TriviaGame/",
+    Name: "Anatomy and Phyisiology Trivia",
+    Image: "images/A&P-react.png",
+    GitHub: "https://github.com/discopat1/TriviaGame/",
+    Description1: "This web application provides a basic Anatomy and Physiology Quiz. The user is given 3 multiple choice questions. Answer within the time limit and click submit or wait for time to expire and see your results.",
+    Description2: "Built with HTML, JS timers, and Bootstrap."
+},
+{
+    HomeUrl: "https://discopat1.github.io/Train-Activity/",
+    Name: "Train Manager",
+    Image: "images/train-manager.png",
+    GitHub: "https://github.com/discopat1/Train-Activity",
+    Description1: "Train schedule application. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.",
+    Description2: "Built with HTML, Moment.JS, Firebase, Javascript/Jquery, and Bootstrap."
+},
 ];
 
 
