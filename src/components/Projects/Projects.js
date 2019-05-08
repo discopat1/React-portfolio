@@ -97,8 +97,10 @@ class Projects extends Component {
         return (
             <div class="container-fluid bg-3 text-center">
                 <h3>A snapshot of some of my past and current projects</h3>
-                <div class="card-group" id="backImg" style={ {backgroundImage: "url('images/sunset.jpg')"} }>
+                <div id="backImg" style={ {backgroundImage: "url('images/sunset.jpg')"} }>
+                <div class="card-group" >
                     {ProjectList.map(this.renderProjectList)}
+                </div>
                 </div>
             </div>
         );
