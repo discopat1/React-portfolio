@@ -51,6 +51,22 @@ const ProjectList = [{
     Description1: "Train schedule application. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.",
     Description2: "Built with HTML, Moment.JS, Firebase, Javascript/Jquery, and Bootstrap."
 },
+{
+    HomeUrl: "https://github.com/discopat1/Angular-todo",
+    Name: "To Do App",
+    Image: "images/to-do.png",
+    GitHub: "https://github.com/discopat1/Angular-todo",
+    Description1: "Simple To Do application. User can add new tasks, check or uncheck them, and delete them.",
+    Description2: "Angular, Bootstrap, and Firebase"
+},
+{
+    HomeUrl: "https://github.com/discopat1/React-native-navigate",
+    Name: "Grapplers Paradise",
+    Image: "images/grappler-screenshot.png",
+    GitHub: "https://github.com/discopat1/React-native-navigate",
+    Description1: "This is an ios application developed to help grappling athletes of all backgrounds and styles. The application can find grappling schools, seminars, and competitions nearby. There is also a screen that provides a list of various topics. Each item in the list links to a different set of videos.",
+    Description2: "This application is build using React Native"
+},
 ];
 
 
