@@ -36,6 +36,14 @@ const ProjectList = [{
     Description2: "Built with HTML, NodeJS, Express, and Bootstrap."
 },
 {
+    HomeUrl: "https://github.com/discopat1/React-native-navigate",
+    Name: "Grapplers Paradise",
+    Image: "images/grappler-screenshot.png",
+    GitHub: "https://github.com/discopat1/React-native-navigate",
+    Description1: "This is an ios application developed to help grappling athletes of all backgrounds and styles. The application can find grappling schools, seminars, and competitions nearby. There is also a screen that provides a list of various topics. Each item in the list links to a different set of videos.",
+    Description2: "This application is built using React Native"
+},
+{
     HomeUrl: "https://discopat1.github.io/TriviaGame/",
     Name: "Anatomy and Phyisiology Trivia",
     Image: "images/A&P-react.png",
@@ -58,14 +66,6 @@ const ProjectList = [{
     GitHub: "https://github.com/discopat1/Angular-todo",
     Description1: "Simple To Do application. User can add new tasks, check or uncheck them, and delete them.",
     Description2: "Angular, Bootstrap, and Firebase"
-},
-{
-    HomeUrl: "https://github.com/discopat1/React-native-navigate",
-    Name: "Grapplers Paradise",
-    Image: "images/grappler-screenshot.png",
-    GitHub: "https://github.com/discopat1/React-native-navigate",
-    Description1: "This is an ios application developed to help grappling athletes of all backgrounds and styles. The application can find grappling schools, seminars, and competitions nearby. There is also a screen that provides a list of various topics. Each item in the list links to a different set of videos.",
-    Description2: "This application is built using React Native"
 },
 ];
 
@@ -97,7 +97,7 @@ class Projects extends Component {
         return (
             <div class="container-fluid bg-3 text-center">
                 <h3>A snapshot of some of my past and current projects</h3>
-                <div class="card-group" style={ {backgroundImage: "url('images/sunset.jpg')"} }>
+                <div class="card-group" id="backImg" style={ {backgroundImage: "url('images/sunset.jpg')"} }>
                     {ProjectList.map(this.renderProjectList)}
                 </div>
             </div>

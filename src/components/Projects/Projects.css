@@ -33,10 +33,6 @@
       border: 5px groove rgb(208, 171, 149);
   }
 
-  .card-group {
-      background-image: "url('images/sunset.jpg')";
-  }
-
   .card-button {
       width: 130px;
       margin-right: 45px;
@@ -45,3 +41,10 @@
   h3 {
       margin-top: 80px;
   }
+
+  #backImg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: round;
+    z-index: -1;
+}
