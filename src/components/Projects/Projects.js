@@ -65,7 +65,7 @@ const ProjectList = [{
     Image: "images/grappler-screenshot.png",
     GitHub: "https://github.com/discopat1/React-native-navigate",
     Description1: "This is an ios application developed to help grappling athletes of all backgrounds and styles. The application can find grappling schools, seminars, and competitions nearby. There is also a screen that provides a list of various topics. Each item in the list links to a different set of videos.",
-    Description2: "This application is build using React Native"
+    Description2: "This application is built using React Native"
 },
 ];
 
