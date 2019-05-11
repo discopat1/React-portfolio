@@ -1,0 +1,12 @@
+footer {
+    background:sienna;
+    color: #f1f1f1;
+    padding: 15px;
+    position: relative;
+    top: 138px;
+  }
+  i {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #f1f1f1;
+  }
