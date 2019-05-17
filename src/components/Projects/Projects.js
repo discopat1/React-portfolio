@@ -80,7 +80,7 @@ class Projects extends Component {
                 <img src={project.Image} class="card-img-top" alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">{project.Name}</h5>
-                        <p>{project.Description1}</p>
+                        <p class="card-text">{project.Description1}</p>
                         <p>{project.Description2}</p>
                     </div>     
                     <div class="d-flex justify-content-between card-footer">

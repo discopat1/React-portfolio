@@ -6,9 +6,8 @@
   .card-img-top {
       height: 275px;
   }
-  .over-text {
+  /* .over-text {
     width: 100%;
-    /* background-color: black; */
     color: white;
     font-size: 16.5px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+  } */
   .info-button {
       position: relative;
       bottom: 170px;
@@ -32,7 +31,13 @@
   .card {
       border: 5px groove rgb(208, 171, 149);
   }
-
+  .card-text {
+    display: flex 1;
+    flex-direction: column;
+    height: 75px;
+    overflow-y: auto !important;
+    text-align: center;
+  }
   .card-button {
       width: 130px;
       margin-right: 45px;
@@ -44,6 +49,11 @@
       margin-left: 0px;
     }
   } 
+  @media only screen and (max-width: 600px) {
+      .card-img-top {
+          height: 200px;
+      }
+  }
   h3 {
       margin-top: 80px;
   }
