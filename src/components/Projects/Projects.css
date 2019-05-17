@@ -38,6 +38,12 @@
       margin-right: 45px;
       margin-left: 45px;
   }
+  @media only screen and (min-width: 600px) {
+    .card-button {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  } 
   h3 {
       margin-top: 80px;
   }

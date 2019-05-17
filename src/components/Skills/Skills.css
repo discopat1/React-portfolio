@@ -14,3 +14,9 @@ i {
 .skills {
     background-color: sienna;
 }
+@media only screen and (max-width: 600px) {
+  .card-button {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+} 
