@@ -6,6 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <footer class="container-fluid text-center">
+                <h5><a href="#content" class="text-white">Back to the top</a></h5>
                 <p><a href="https://github.com/discopat1"><i class="fab fa-github fa-3x"></i></a><a href="https://www.linkedin.com/in/patrick-neff-66034a15a"><i class="fab fa-linkedin fa-3x"></i></a></p>
             </footer>
         );
