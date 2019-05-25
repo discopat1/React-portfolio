@@ -73,7 +73,7 @@ const ProjectList = [{
     Image: "images/to-do.png",
     GitHub: "https://github.com/discopat1/Angular-todo",
     Description1: "Simple To Do application. User can add new tasks, check or uncheck them, and delete them.",
-    Description2: "Angular, Bootstrap, and Firebase"
+    Description2: "Built with Angular, Bootstrap, and Firebase"
 },
 ];
 
