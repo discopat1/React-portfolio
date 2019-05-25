@@ -28,6 +28,14 @@ const ProjectList = [{
     Description2: "Built with HTML, JQuery, Materialize, Google Map API, OpenWeatherMap API, Mountain Project API, and Meetup API."
 },
 {
+    HomeUrl: "https://discopat1.github.io/BestofBoth/",
+    Name: "Best of Both Worlds Wellness",
+    Image: "images/bestofboth.png",
+    GitHub: "https://github.com/BestofBoth",
+    Description1: "Professional website for the business “Best of Both Worlds Wellness.” Informational site about the business with links to schedule appointments, shop for supplements, and watch informational videos.",
+    Description2: "Built with Materialize."
+},
+{
     HomeUrl: "https://blooming-island-62700.herokuapp.com/",
     Name: "GOT Friend Finder",
     Image: "images/got-react.png",
@@ -43,14 +51,14 @@ const ProjectList = [{
     Description1: "This is an ios application developed to help grappling athletes of all backgrounds and styles. The application can find grappling schools, seminars, and competitions nearby. There is also a screen that provides a list of various topics. Each item in the list links to a different set of videos.",
     Description2: "This application is built using React Native"
 },
-{
-    HomeUrl: "https://discopat1.github.io/TriviaGame/",
-    Name: "Anatomy and Phyisiology Trivia",
-    Image: "images/A&P-react.png",
-    GitHub: "https://github.com/discopat1/TriviaGame/",
-    Description1: "This web application provides a basic Anatomy and Physiology Quiz. The user is given 3 multiple choice questions. Answer within the time limit and click submit or wait for time to expire and see your results.",
-    Description2: "Built with HTML, JS timers, and Bootstrap."
-},
+// {
+//     HomeUrl: "https://discopat1.github.io/TriviaGame/",
+//     Name: "Anatomy and Phyisiology Trivia",
+//     Image: "images/A&P-react.png",
+//     GitHub: "https://github.com/discopat1/TriviaGame/",
+//     Description1: "This web application provides a basic Anatomy and Physiology Quiz. The user is given 3 multiple choice questions. Answer within the time limit and click submit or wait for time to expire and see your results.",
+//     Description2: "Built with HTML, JS timers, and Bootstrap."
+// },
 {
     HomeUrl: "https://discopat1.github.io/Train-Activity/",
     Name: "Train Manager",
